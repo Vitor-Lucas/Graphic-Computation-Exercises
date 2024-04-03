@@ -1,0 +1,11 @@
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Line Drawer\bin\Debug\Line Drawer.exe.config
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Line Drawer\bin\Debug\Line Drawer.exe
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Line Drawer\bin\Debug\Line Drawer.pdb
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Line Drawer\obj\Debug\Line Drawer.csproj.AssemblyReference.cache
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Line Drawer\obj\Debug\Line Drawer.csproj.SuggestedBindingRedirects.cache
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Line Drawer\obj\Debug\Line_Drawer.Properties.Resources.resources
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Line Drawer\obj\Debug\Line Drawer.csproj.GenerateResource.cache
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Line Drawer\obj\Debug\Line Drawer.csproj.CoreCompileInputs.cache
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Line Drawer\obj\Debug\Line Drawer.exe
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Line Drawer\obj\Debug\Line Drawer.pdb
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Line Drawer\obj\Debug\Line_Drawer.Form1.resources
