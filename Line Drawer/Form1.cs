@@ -7,15 +7,17 @@ namespace Line_Drawer
 {
     public partial class Form1 : Form
     {
-        List<Line> lines;
-        int click_count = 0;
+        int click_count = 1;
 
-        int temp_x;
-        int temp_y;
+        int first_x;
+        int first_y;
+        
+        int second_x;
+        int second_y;
 
-        int mouse_x;
-        int mouse_y;
-        bool draw_to_mouse;
+        bool draw_line;
+
+        float[] pattern;
 
         int r = 0;
         int g = 0;
@@ -25,75 +27,145 @@ namespace Line_Drawer
         {
             InitializeComponent();
         }
+        float[] GetPattern(int index)
+        {
+            switch (index)
+            {
+                case 0:
+                    return null;
+                case 1:
+                    return new float[] { 1 };
+                case 2:
+                    return new float[] { 5, 1 };
+                case 3:
+                    return new float[] { 5, 2, 1, 2 };
+                case 4:
+                    return new float[] { 5, 1, 1, 1, 1, 1 };
+                default:
+                    return new float[] { 1, 1 };
+            }
+        }
+        int Distance(int x0, int y0, int x1, int y1)
+        {
+            return (int) Math.Sqrt(Math.Pow(x0 - x1, 2) + Math.Pow(y0 - y1, 2));
+        }
         Pen GetPatternedPen(int r, int g, int b, float[] pattern)
         {
-            Pen pen = new Pen(Color.FromArgb(r, g, b));
+            int width = (int) widthUpDown.Value;
+            Pen pen = new Pen(Color.FromArgb(r, g, b),width);
             pen.DashPattern = pattern;
+            
             return pen;
         }
-        void DrawLine(PaintEventArgs e, Pen pen, Line line)
+        void DrawLine(PaintEventArgs e, Pen pen, int x0, int y0, int x1, int y1)
         {
-            int x0 = line.x0;
-            int y0 = line.y0;
-            int x1 = line.x1;
-            int y1 = line.y1;
-
             e.Graphics.DrawLine(pen, x0, y0, x1, y1);
+        }
+        public void DrawRectangle(PaintEventArgs e, Pen pen, int x0, int y0, int x1, int y1)
+        {
+            DrawLine(e, pen, x0, y0, x1, y0);
+            DrawLine(e, pen, x0, y0, x0, y1);
+            DrawLine(e, pen, x0, y1, x1, y1);
+            DrawLine(e, pen, x1, y0, x1, y1);
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            lines = new List<Line>();
+            
         }
         private void Form1_MouseClick(object sender, MouseEventArgs e)
         {
-            click_count++;
             if(click_count % 2 == 1)
             {
-                temp_x = e.X;
-                temp_y = e.Y;
-                draw_to_mouse = true;
+                first_x = e.X;
+                first_y = e.Y;
             }
             else
             {
-                draw_to_mouse = false;
-                lines.Add(new Line(temp_x, temp_y, mouse_x,mouse_y));
+                second_x = e.X;
+                second_y = e.Y;
+                draw_line = true;
+
+                float m = (first_y - second_y) / (first_x - second_x);
+                float b = first_y - m * first_x;
+
+                functionLabel.Text = "f(x) = " + m + "x" + "+ "+b;
+                distanceLabel.Text = "Distance: " + Distance(first_x,first_y,second_x,second_y);
+                Invalidate();
             }
-            Invalidate();
+
+            click_count++;
         }
         private void Form1_Paint(object sender, PaintEventArgs e)
         {
-            float[] pattern = {1};
-            Pen pen = GetPatternedPen(r,b,g,pattern);
+            float[] pattern = GetPattern(patternComboBox.SelectedIndex);
+            if (pattern == null)
+                return;
 
-            foreach (Line line in lines)
+            Pen pen = GetPatternedPen(r,g,b,pattern);
+
+            if (draw_line)
             {
-                DrawLine(e, pen, line);
-            }
-
-            if (draw_to_mouse)
-            {
-                Line mouse_line= new Line(temp_x,temp_y, mouse_x, mouse_y);
-                DrawLine(e,pen,mouse_line);
+                if (RectangleCheckBox.Checked)
+                    DrawRectangle(e, pen, first_x, first_y, second_x, second_y);
+                else
+                    DrawLine(e, pen, first_x, first_y, second_x, second_y);
             }
         }
-        private void Form1_MouseMove(object sender, MouseEventArgs e)
+
+        private void widthUpDown_ValueChanged(object sender, EventArgs e)
         {
-            mouse_x = e.X; 
-            mouse_y = e.Y;
-            if(draw_to_mouse)
-                Invalidate();
+            Invalidate();
         }
 
-    }
-    public class Line
-    {
-        public int x0, y0;
-        public int x1, y1;
-        public Line(int x0, int y0, int x1, int y1)
+        private void RectangleCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-            this.x0 = x0; this.y0 = y0;
-            this.x1 = x1; this.y1 = y1;
+            Invalidate();
+        }
+
+        private void patternComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Invalidate();
+        }
+
+        private void RedTextBox_TextChanged(object sender, EventArgs e)
+        {
+            if (RedTextBox.Text == "")
+                RedTextBox.Text = "0";
+            r = int.Parse(RedTextBox.Text);
+            if (r < 0)
+                r = 0;
+            else if (r > 255)
+                r = 255;
+            Invalidate();
+        }
+
+        private void GreenTextBox_TextChanged(object sender, EventArgs e)
+        {
+            if (GreenTextBox.Text == "")
+                GreenTextBox.Text = "0";
+            g = int.Parse(GreenTextBox.Text);
+            if (g < 0)
+                g = 0;
+            else if (g > 255)
+                g = 255;
+            Invalidate();
+        }
+
+        private void BlueTextBox_TextChanged(object sender, EventArgs e)
+        {
+            if (BlueTextBox.Text == "")
+                BlueTextBox.Text = "0";
+            b = int.Parse(BlueTextBox.Text);
+            if (b < 0)
+                b = 0;
+            else if(b > 255)
+                b = 255;
+            Invalidate();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
-
 }
