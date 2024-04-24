@@ -1,0 +1,11 @@
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Lista 2Bim 2.0\bin\Debug\Lista 2Bim 2.0.exe.config
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Lista 2Bim 2.0\bin\Debug\Lista 2Bim 2.0.exe
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Lista 2Bim 2.0\bin\Debug\Lista 2Bim 2.0.pdb
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Lista 2Bim 2.0\obj\Debug\Lista 2Bim 2.0.csproj.AssemblyReference.cache
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Lista 2Bim 2.0\obj\Debug\Lista 2Bim 2.0.csproj.SuggestedBindingRedirects.cache
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Lista 2Bim 2.0\obj\Debug\Lista_2Bim_2._0.Form1.resources
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Lista 2Bim 2.0\obj\Debug\Lista_2Bim_2._0.Properties.Resources.resources
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Lista 2Bim 2.0\obj\Debug\Lista 2Bim 2.0.csproj.GenerateResource.cache
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Lista 2Bim 2.0\obj\Debug\Lista 2Bim 2.0.csproj.CoreCompileInputs.cache
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Lista 2Bim 2.0\obj\Debug\Lista 2Bim 2.0.exe
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Lista 2Bim 2.0\obj\Debug\Lista 2Bim 2.0.pdb

@@ -35,11 +35,13 @@ namespace Lista_2BIM
             pen.DashPattern = pattern;
             return pen;
         }
-        Pen PenPatterned(int r, int g, int b)
+
+        /*Pen PenPatterned(int r, int g, int b)
         {
             Pen pen = new Pen(Color.FromArgb(r, g, b));
             return pen;
-        }
+        }*/
+
         void DrawRectangle(PaintEventArgs e, Pen pen, int x, int y, int l, int h)
         {
             e.Graphics.DrawRectangle(pen, x, y, l, h);
