@@ -1,0 +1,11 @@
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Sin Cos Visualizer\bin\Debug\Sin Cos Visualizer.exe.config
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Sin Cos Visualizer\bin\Debug\Sin Cos Visualizer.exe
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Sin Cos Visualizer\bin\Debug\Sin Cos Visualizer.pdb
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Sin Cos Visualizer\obj\Debug\Sin Cos Visualizer.csproj.AssemblyReference.cache
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Sin Cos Visualizer\obj\Debug\Sin Cos Visualizer.csproj.SuggestedBindingRedirects.cache
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Sin Cos Visualizer\obj\Debug\Sin_Cos_Visualizer.Form1.resources
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Sin Cos Visualizer\obj\Debug\Sin_Cos_Visualizer.Properties.Resources.resources
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Sin Cos Visualizer\obj\Debug\Sin Cos Visualizer.csproj.GenerateResource.cache
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Sin Cos Visualizer\obj\Debug\Sin Cos Visualizer.csproj.CoreCompileInputs.cache
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Sin Cos Visualizer\obj\Debug\Sin Cos Visualizer.exe
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Sin Cos Visualizer\obj\Debug\Sin Cos Visualizer.pdb
