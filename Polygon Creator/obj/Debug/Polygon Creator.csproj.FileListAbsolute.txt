@@ -1,0 +1,11 @@
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Polygon Creator\obj\Debug\Polygon Creator.csproj.AssemblyReference.cache
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Polygon Creator\obj\Debug\Polygon Creator.csproj.SuggestedBindingRedirects.cache
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Polygon Creator\obj\Debug\Polygon_Creator.Form1.resources
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Polygon Creator\obj\Debug\Polygon_Creator.Properties.Resources.resources
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Polygon Creator\obj\Debug\Polygon Creator.csproj.GenerateResource.cache
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Polygon Creator\obj\Debug\Polygon Creator.csproj.CoreCompileInputs.cache
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Polygon Creator\bin\Debug\Polygon Creator.exe.config
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Polygon Creator\bin\Debug\Polygon Creator.exe
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Polygon Creator\bin\Debug\Polygon Creator.pdb
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Polygon Creator\obj\Debug\Polygon Creator.exe
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Polygon Creator\obj\Debug\Polygon Creator.pdb
