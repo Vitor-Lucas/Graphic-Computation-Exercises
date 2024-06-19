@@ -1,0 +1,11 @@
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Primitivas de Preenchimento\obj\Debug\Primitivas de Preenchimento.csproj.AssemblyReference.cache
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Primitivas de Preenchimento\obj\Debug\Primitivas de Preenchimento.csproj.SuggestedBindingRedirects.cache
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Primitivas de Preenchimento\obj\Debug\Primitivas_de_Preenchimento.Form1.resources
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Primitivas de Preenchimento\obj\Debug\Primitivas_de_Preenchimento.Properties.Resources.resources
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Primitivas de Preenchimento\obj\Debug\Primitivas de Preenchimento.csproj.GenerateResource.cache
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Primitivas de Preenchimento\obj\Debug\Primitivas de Preenchimento.csproj.CoreCompileInputs.cache
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Primitivas de Preenchimento\bin\Debug\Primitivas de Preenchimento.exe.config
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Primitivas de Preenchimento\bin\Debug\Primitivas de Preenchimento.exe
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Primitivas de Preenchimento\bin\Debug\Primitivas de Preenchimento.pdb
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Primitivas de Preenchimento\obj\Debug\Primitivas de Preenchimento.exe
+C:\Tec_info\C# Forms\Graphic-Computation-Exercises\Primitivas de Preenchimento\obj\Debug\Primitivas de Preenchimento.pdb
